@@ -1,6 +1,6 @@
 # Obsidian Web Editor
 
-A Spring Boot web application that provides a browser-based interface for editing Obsidian markdown files. This tool allows you to edit your Obsidian notes through a web textarea, making it convenient to modify markdown files from any device with a browser.
+A Spring Boot web application that provides a browser-based interface for editing [Obsidian](https://obsidian.md/) markdown files. This tool allows you to edit your Obsidian notes through a web textarea, making it convenient to modify markdown files from any device with a browser.
 
 ## Features
 
@@ -19,23 +19,18 @@ A Spring Boot web application that provides a browser-based interface for editin
 
 ## Quick Start
 
-1. Clone this repository:
+1. Run the application:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/obsidian-web-editor.git
    cd obsidian-web-editor
-   ```
-
-2. Run the application:
-   ```bash
    ./mvnw spring-boot:run
    ```
 
-3. Open your browser and navigate to:
+2. Open your browser and navigate to:
    ```
    http://localhost:8080
    ```
 
-4. Select your Obsidian vault and start editing!
+3. Select your Obsidian vault and start editing!
 
 ## Building from Source
 

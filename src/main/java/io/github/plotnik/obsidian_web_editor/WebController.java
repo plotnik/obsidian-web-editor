@@ -25,7 +25,7 @@ public class WebController {
         model.addAttribute("selectedSubfolder", appState.getSelectedSubfolder());
         model.addAttribute("newestFiles", appState.getNewestFiles());
         model.addAttribute("noteName", appState.getNoteName());
-        model.addAttribute("noteText", appState.noteText);
+        model.addAttribute("noteText", appState.getNoteText());
         model.addAttribute("status", "[" + appState.currentTime() + "] " + appState.getStatus());
 
         return "page"; // This tells Thymeleaf to render "page.html"

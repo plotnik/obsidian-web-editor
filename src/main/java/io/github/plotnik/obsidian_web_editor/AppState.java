@@ -34,7 +34,8 @@ public class AppState {
     private String noteName;
     private File noteFolder;
     private String noteHome;
-    String noteText;
+    private String noteText;
+
     private String status;
 
 
@@ -238,6 +239,10 @@ public class AppState {
 
     public String getNoteName() {
         return noteName;
+    }
+    
+    public String getNoteText() {
+        return noteText;
     }
 
     public String getStatus() {
